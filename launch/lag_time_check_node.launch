@@ -1,0 +1,10 @@
+<launch>
+
+  <node pkg="lag_time_check"
+    type="lag_time_check_node"
+    name="lag_time_check_node"
+    output="screen">
+    <param name="bag_name" value="$(find lag_time_check)/log/test2"/>
+  </node>
+
+</launch>
